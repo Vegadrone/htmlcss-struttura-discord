@@ -73,6 +73,7 @@ li > a {
     width: 65%;
     background-color: rgb(216, 101, 206);
     height: 500px;
+    border: 2px dashed black;
 } 
 
 /* SECTION 2-3-4 */
@@ -85,12 +86,14 @@ li > a {
     height: 500px;
     width: 50%;
     background-color: rgb(101, 126, 227);
+    border: 2px dashed black;
 }
 
 .text{
     height: 500px;
     width: 30%;
     background-color: rgb(238, 189, 234);
+    border: 2px dashed black;
 
 }
 
@@ -100,6 +103,7 @@ li > a {
     width: 80%;
     height: 1000px;
     background-color: green;
+    border: 2px dashed black;
 }
 
 /* SECTION 6 */
@@ -109,34 +113,44 @@ li > a {
 }
 
 .sec6-box1{
-    width: 25%;
+    border: 2px dashed black;
+    width: 20%;
     height: 700px;
     background-color: rgb(240, 86, 86);
 }
 
 .sec6-box2{
-    width: 55%;
+    border: 2px dashed black;
+    width: 60%;
     height: 700px;
     background-color: aquamarine;
-    align-content: stretch;
 }
 
-.border1{
-    border: 1px dashed black;
+.item1{
+    /* background-color: bisque; */
+    border: 2px dashed white;
     width: 100%;
-    height: 100%;
+    height:700px;
 }
 
-.border2{
-    border: 1px dashed black;
+.item2{
+    /* background-color: rgb(165, 115, 55); */
+    border: 2px dashed white;
     width: 100%;
-    height: 100%;
+    height: 700px;
 }
 
-.border3{
-    border: 1px dashed black;
+.item3{
+    /* background-color: rgb(234, 156, 61); */
+    border: 2px dashed white;
     width: 100%;
-    height: 100%;
+    height: 700px;
+}
+
+.item4{
+     border: 2px dashed white;
+    width: 100%;
+    height: 700px;
 }
 
 
@@ -148,7 +162,7 @@ li > a {
 }
 
 footer{
-    padding: 10px;
+    padding-top: 30px;
     background-color: rgb(19, 33, 24);
 }
 
@@ -160,16 +174,19 @@ footer{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    border: 2px dashed black;
 }
 
 .logo2{
     margin: 10px 10px 10px 0px;
     background-color: salmon;
+    border: 2px dashed black;
 }
 
 .button{
     margin: 10px 0px 10px 10px;
     background-color: salmon;
+    border: 2px dashed black;
 }
 
 
