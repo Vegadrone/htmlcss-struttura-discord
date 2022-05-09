@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 10px;
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    background-color: rgb(244, 156, 156);
+    width: 80%;
+    margin: auto;
+}
+
+.logo{
+    flex-grow: 1;
+    padding:10px;
+    border: 1px black dashed;
+}
+
+.menù{
+    flex-grow: 3;
+    padding: 10px;
+    border: 1px black dashed;
+   
+}
+
+.ul-flex {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin: 0px 5px;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+.login{
+    flex-grow:1;
+    padding: 10px;
+    border: 1px black dashed;
+}
