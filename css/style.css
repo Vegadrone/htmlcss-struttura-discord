@@ -3,15 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex-container{
+    display:flex;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* HEADER CSS */
 header{
     padding: 10px;
     background-color: aqua;
 }
-.container{
-    display: flex;
+
+.head-container{
     background-color: rgb(244, 156, 156);
-    width: 80%;
-    margin: auto;
 }
 
 .logo{
@@ -46,3 +56,22 @@ li > a {
     padding: 10px;
     border: 1px black dashed;
 }
+
+/* MAIN WITH 6 SECTIONS CSS */
+
+/* SECTION 1 */
+
+.section1{
+    background-color: blue;
+}
+
+.sec1-box{
+    width: 80%;
+    background-color: rgb(216, 101, 206);
+    height: 200px;
+}
+
+
+
+
+
