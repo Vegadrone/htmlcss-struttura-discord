@@ -6,11 +6,7 @@
 
 .flex-container{
     display:flex;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
+    justify-content: center;
 }
 
 
@@ -22,6 +18,9 @@ header{
 
 .head-container{
     background-color: rgb(244, 156, 156);
+    margin: 0 auto;
+    width: 80%;
+
 }
 
 .logo{
@@ -63,23 +62,22 @@ li > a {
 /* SECTION 1 */
 
 .section{
-    justify-content: center;
     padding: 40px 0px;
 }
 
-.sec1bg{
+.bluebg{
     background-color: blue;
 }
 
 .sec1-box{
     width: 65%;
     background-color: rgb(216, 101, 206);
-    height: 400px;
+    height: 500px;
 } 
 
 /* SECTION 2-3-4 */
 
-.sec3bg{
+.greybg{
     background-color: rgb(136, 135, 135);
 }
 
@@ -98,6 +96,81 @@ li > a {
 
 /* SECTION 5 */
 
+.sec5-box{
+    width: 80%;
+    height: 1000px;
+    background-color: green;
+}
+
+/* SECTION 6 */
+
+.blackbg{
+    background-color: rgb(19, 33, 24);
+}
+
+.sec6-box1{
+    width: 25%;
+    height: 700px;
+    background-color: rgb(240, 86, 86);
+}
+
+.sec6-box2{
+    width: 55%;
+    height: 700px;
+    background-color: aquamarine;
+    align-content: stretch;
+}
+
+.border1{
+    border: 1px dashed black;
+    width: 100%;
+    height: 100%;
+}
+
+.border2{
+    border: 1px dashed black;
+    width: 100%;
+    height: 100%;
+}
+
+.border3{
+    border: 1px dashed black;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* FOOTER */
+
+.bar {
+    height: 2px;
+    background-color: white;
+}
+
+footer{
+    padding: 10px;
+    background-color: rgb(19, 33, 24);
+}
+
+
+.footer-container{
+    background-color: aquamarine;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo2{
+    margin: 10px 10px 10px 0px;
+    background-color: salmon;
+}
+
+.button{
+    margin: 10px 0px 10px 10px;
+    background-color: salmon;
+}
 
 
 
