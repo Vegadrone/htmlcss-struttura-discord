@@ -53,6 +53,7 @@ li > a {
 
 .login{
     flex-grow:1;
+    text-align: end;
     padding: 10px;
     border: 1px black dashed;
 }
@@ -61,15 +62,42 @@ li > a {
 
 /* SECTION 1 */
 
-.section1{
+.section{
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.sec1bg{
     background-color: blue;
 }
 
 .sec1-box{
-    width: 80%;
+    width: 65%;
     background-color: rgb(216, 101, 206);
-    height: 200px;
+    height: 400px;
+} 
+
+/* SECTION 2-3-4 */
+
+.sec3bg{
+    background-color: rgb(136, 135, 135);
 }
+
+.img{
+    height: 500px;
+    width: 50%;
+    background-color: rgb(101, 126, 227);
+}
+
+.text{
+    height: 500px;
+    width: 30%;
+    background-color: rgb(238, 189, 234);
+
+}
+
+/* SECTION 5 */
+
 
 
 
